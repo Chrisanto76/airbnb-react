@@ -1,0 +1,159 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 1400px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+
+/* css variables */
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.thin {
+  font-weight: lighter;
+}
+
+/* navigation */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 80px;
+  padding: 20px 35px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+.nav--title {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 10px 25px;
+  border: 1px solid rgb(212, 208, 208);
+  border-radius: 30px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  color: #5c5a5a;
+  font-size: 14px;
+}
+
+.nav--item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.find--icon {
+  border-radius: 50%;
+  height: 35px;
+  align-self: center;
+}
+
+/* category wrapper layout */
+
+.category--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  margin: 20px;
+  max-width: 1400px;
+}
+
+.holiday--choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 0;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 60%;
+}
+
+.holiday--choice:hover {
+  opacity: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+.wrapper-svg {
+  height: 25px;
+}
+/* card */
+
+.card {
+  width: 300px;
+}
+
+.card--img {
+  width: 100%;
+  height: 250px;
+  border-radius: 9px;
+}
+
+.card--stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ;
+}
+.card--text {
+  margin-top: 0;
+}
+
+.card--star {
+  height: 14px;
+  margin-right: 4px;
+}
+
+.rate {
+  margin-left: px;
+}
+
+.card--text {
+  margin-bottom: 0;;
+}
+
+.last {
+  margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  nav {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-height: fit-content;
+    box-shadow: none;
+  }
+}
