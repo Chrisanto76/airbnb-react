@@ -33,46 +33,8 @@ function App() {
           date="aout 2023."
           price="500$"
         />
-        <Card
-          img="./src/assets/st-laurent.webp"
-          name="Saint-Laurent-des-Bois"
-          rate="4.7"
-          style="Particulier"
-          date="aout 2023."
-          price="500$"
-        />
-        <Card
-          img="./src/assets/st-laurent.webp"
-          name="Saint-Laurent-des-Bois"
-          rate="4.7"
-          style="Particulier"
-          date="aout 2023."
-          price="500$"
-        />
-        <Card
-        img="./src/assets/st-laurent.webp"
-        name="Saint-Laurent-des-Bois"
-        rate="4.7"
-        style="Particulier"
-        date="aout 2023."
-        price="500$"
-        />
-        <Card
-          img="./src/assets/st-laurent.webp"
-          name="Saint-Laurent-des-Bois"
-          rate="4.7"
-          style="Particulier"
-          date="aout 2023."
-          price="500$"
-        />
-         <Card
-          img="./src/assets/vitry.webp"
-          name="Vitry-sur-Seine"
-          rate="4.2"
-          style="Particulier"
-          date="aout 2023."
-          price="500$"
-        />
+        
+        
       </div>
       
     </>
